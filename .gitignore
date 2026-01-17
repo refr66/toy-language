@@ -1,0 +1,48 @@
+# Original ignores
+/Doc
+/*build
+src/frontend/target
+
+# MLIR build output (large binaries)
+src/mlir-dialect/build/
+
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.dylib
+
+# Generated binaries
+src/runtime/test
+src/scripts/test
+src/scripts/simple_test_bin
+src/runtime/build-host
+src/runtime/build-riscv
+src/tests
+# Generated MLIR/LLVM files
+*.lowered.mlir
+*.llvm.mlir
+*.llvm.mlir.tmp
+*.ll
+*.s
+
+
+# Temporary files
+*.tmp
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# macOS
+.DS_Store
